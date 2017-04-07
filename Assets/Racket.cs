@@ -8,8 +8,8 @@ public class Racket : MonoBehaviour {
 
 	void FixedUpdate(){
 		
-			float horizontalDirection = Input.GetAxisRaw("Horizontal");
-			GetComponent<Rigidbody2D>().velocity = Vector2.right * horizontalDirection * speed;
+		float horizontalDirection = Input.GetAxisRaw("Horizontal");
+		GetComponent<Rigidbody2D>().velocity = Vector2.right * horizontalDirection * speed;
 	}
 
 }
